@@ -12,5 +12,5 @@ interface PersonRepository {
 
     suspend fun deleteAllPerson()
 
-    suspend fun getAllPerson(): LiveData<List<PersonEntity>>
+    fun getAllPerson(): LiveData<List<PersonEntity>>
 }

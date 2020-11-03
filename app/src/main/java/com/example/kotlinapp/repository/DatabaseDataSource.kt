@@ -38,7 +38,7 @@ class DatabaseDataSource(private val personDAO: PersonDAO) : PersonRepository {
         personDAO.deleteAll()
     }
 
-    override suspend fun getAllPerson(): LiveData<List<PersonEntity>> {
+    override fun getAllPerson(): LiveData<List<PersonEntity>> {
         return personDAO.getAll()
     }
 }
