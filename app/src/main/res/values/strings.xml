@@ -6,4 +6,7 @@
     <string name="subscriber_email_hint">E-mail</string>
     <string name="subscriber_button">Adicionar</string>
     <string name="subscriber_title">Cadastrar</string>
+
+    <string name="person_inserted_successfully">Adicionado com sucesso</string>
+    <string name="person_error_to_insert">Ocorreu um erro ao adicionar</string>
 </resources>

@@ -35,7 +35,7 @@
         app:layout_constraintTop_toBottomOf="@id/input_layout_name">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/input_email2"
+            android:id="@+id/input_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -102,14 +102,14 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button_subscriber"
+        android:id="@+id/button_person"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="204dp"
         android:text="@string/subscriber_button"
-        app:layout_constraintEnd_toEndOf="@id/input_layout_email"
+        app:layout_constraintEnd_toEndOf="@id/input_layout_cpf"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@id/input_layout_email"
-        app:layout_constraintTop_toBottomOf="@id/input_layout_email" />
+        app:layout_constraintStart_toStartOf="@id/input_layout_cpf"
+        app:layout_constraintTop_toBottomOf="@id/input_layout_cpf" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
